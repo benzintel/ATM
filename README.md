@@ -1,9 +1,10 @@
 # Benzintel ATM
 
 # How to install
-
+  - cd laravel
+  - copy file .env.example and new file name .env same content .env.example
+  -----------------------------
   - install Docker  [https://docs.docker.com]
-  - cd path project
 ```sh
 $ sh start.sh
 ```
@@ -18,5 +19,4 @@ $ chmod -R 777 storage
 $ php artisan key:generate
 $ exit
 ```
-
-- goto browser url: localhost
+  - goto browser url: localhost
